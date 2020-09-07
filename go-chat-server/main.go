@@ -1,6 +1,7 @@
 package main
 
 import (
+	"amado.com/go-chat-common/utils"
 	"fmt"
 	"log"
 	"net/http"
@@ -10,7 +11,7 @@ import (
 
 func main() {
 	fmt.Println("hello world")
-
+	utils.NewNd5()
 	InitRouter()
 }
 
